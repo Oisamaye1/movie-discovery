@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities - use padding technique instead of aspect-ratio */
+.custom-aspect {
+  position: relative;
+  padding-bottom: 150%; /* 2:3 aspect ratio */
+}
+
+.custom-aspect > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
