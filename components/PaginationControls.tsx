@@ -17,7 +17,7 @@ export default function PaginationControls({
   const hasNextPage = currentPage < totalPages
 
   const createPageURL = (pageNumber: number) => {
-    const params = new URLSearchParams(searchParams)
+    const params = new URLSearchParams(searchParams.toString())
     params.set('page', pageNumber.toString())
     return `?${params.toString()}`
   }

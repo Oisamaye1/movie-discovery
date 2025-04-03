@@ -2,7 +2,6 @@
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { FaHeart, FaRegHeart, FaStar, FaClock, FaCalendarAlt } from 'react-icons/fa'
-import Link from 'next/link'
 import YouTube from 'react-youtube'
 
 interface MovieDetails {

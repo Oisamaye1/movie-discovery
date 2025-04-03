@@ -6,7 +6,6 @@ import MovieGrid from '../../components/MovieGrid'
 import { searchMovies, getGenres } from '../../lib/tmdb'
 import LoadingSkeleton from '../../components/LoadingSkeleton'
 import PaginationControls from '../../components/PaginationControls'
-import SortFilterControls from '../../components/SortFilterControls'
 
 export default function SearchPage() {
   const router = useRouter()
